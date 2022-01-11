@@ -12,6 +12,10 @@ export default function App() {
 
   return (
     <div className="App">
+      <h1 style={{ background: "teal", padding: "2px" }}>
+        Once forked, how will we commit???{" "}
+      </h1>
+
       <div className="item-div">
         {data &&
           data.map((item) => (

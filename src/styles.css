@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.item-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.article {
+  border: 1px solid green;
+  margin: 5px;
+  padding: 10px;
+  display: inline;
+  width: 20%;
+}
+
+@media only screen and (max-width: 678px) {
+  .article {
+    border: 1px solid red;
+    margin: 1% 4%;
+    padding: 10px;
+    display: block;
+    width: 90%;
+  }
+}
